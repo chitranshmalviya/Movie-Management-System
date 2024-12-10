@@ -1,7 +1,7 @@
 # Movie Management System - Spring Boot REST API
 
 ## Project Overview
-The **Movie Management System** is a REST API developed using Spring Boot to efficiently manage movie data. It provides a suite of functionalities for performing CRUD (Create, Read, Update, Delete) operations on movie records while adhering to RESTful principles. The system ensures a seamless and scalable experience for developers and API consumers.
+The **Movie Management System** is a REST API developed using Spring Boot to manage movie data efficiently. It provides a suite of functionalities for performing CRUD (Create, Read, Update, Delete) operations on movie records while adhering to RESTful principles. The system ensures a seamless and scalable experience for developers and API consumers.
 
 ## Features
 - **Create Movies**: Add new movies with details such as title, genre, director, and release year.
@@ -22,9 +22,9 @@ The **Movie Management System** is a REST API developed using Spring Boot to eff
 ## **Project Structure**
 ```plaintext
 src/main/java
-├── com.spring.rest.ums
+├── com.spring.rest.mms
 │   ├── controller   # REST controllers
-│   ├── Entity        # Entity classes
+│   ├── Entity       # Entity classes
 │   ├── repository   # JPA repositories
 │   ├── service      # Business logic
 │   ├── exception    # Custom exceptions
