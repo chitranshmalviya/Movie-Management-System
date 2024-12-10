@@ -19,4 +19,13 @@ The **Movie Management System** is a REST API developed using Spring Boot to eff
 - **ORM Tool**: Spring Data JPA
 - **Build Tool**: Maven
 
-## Project Structure
+## **Project Structure**
+```plaintext
+src/main/java
+├── com.spring.rest.ums
+│   ├── controller   # REST controllers
+│   ├── Entity        # Entity classes
+│   ├── repository   # JPA repositories
+│   ├── service      # Business logic
+│   ├── exception    # Custom exceptions
+│   ├── util         # Utility classes
